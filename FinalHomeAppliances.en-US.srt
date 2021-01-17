@@ -1,0 +1,132 @@
+1
+00:00:00,140 --> 00:00:05,460
+Home Page or Front End of the Application,where customer can view various products based on categories
+
+2
+00:00:19,620 --> 00:00:20,220
+
+
+3
+00:00:20,220 --> 00:00:26,720
+Customer can view the products of particular categories like Tv, which again contains sub categories like lg, Samsung etc
+
+4
+00:00:35,560 --> 00:00:40,240
+The Customers can view the detail description of particular product
+
+5
+00:00:43,400 --> 00:00:50,040
+The customer can also search for particular product, by typing in search bar
+
+6
+00:01:00,360 --> 00:01:07,620
+The customers can add multiple products to Cart by selecting the quantity, The BuyNow option allows to buy single product
+
+7
+00:01:10,880 --> 00:01:16,220
+The Shopping cart , allows to modify the items, like change quantity or delete item from cart, If the Customer is logged in, then it allows customer to Proceed For Confirmation else it redirect to Login/Register Page
+
+8
+00:01:24,081 --> 00:01:38,221
+Customer need to register themselves in order to place an order, the validation is also carried to ensure invalid or redundant data is not recorded, Once customer is register thy can login and confirm the order
+
+9
+00:02:28,580 --> 00:02:39,560
+Once the Customer Logs in, it is recorded in session and the customer can keep track of Orders placed and update profile if required
+
+10
+00:03:01,660 --> 00:03:18,580
+The Customer need to mention the billing address and contact number, along with payment mode,we have added phonepe as option for scan and pay
+
+11
+00:03:44,340 --> 00:03:56,800
+The Customer can keep track of order status,order details and order tracking
+
+12
+00:04:01,280 --> 00:04:07,260
+Inorder to access the admin panel or admin dashboard, right click on Logo and open link in new tab, it will redirect to admin login page 
+
+13
+00:04:11,260 --> 00:04:14,260
+The admin dashboard keep track of all numbers, like Products,Stock,Customers etc
+
+14
+00:04:22,120 --> 00:04:27,200
+When the customer places an order, a notification is sent to admin, who can view and confirm the orders
+
+15
+00:04:27,620 --> 00:04:37,380
+The Admin can Confirm,Cancel, Generate PDF Invoice and view order details of the customer orders
+
+16
+00:04:47,380 --> 00:04:50,380
+A PDF invoice is generated which can be downloaded or printed
+
+17
+00:05:13,680 --> 00:05:41,100
+Th Admin Updates the customer regarding order status, be keeping track of it,the admin can also mention in detail about the order status,such as location, delivery date, person details etc
+
+18
+00:07:21,480 --> 00:07:24,480
+The admin can view the customer's registered and their data,except the password
+
+19
+00:07:30,020 --> 00:07:38,180
+The Main Category are the One,which will be displayed in the front end, the admin can add and modify as when required, the main category also consists of tax percentage, as each category has separate tax amount
+
+20
+00:07:45,700 --> 00:07:51,920
+Each Main Category has sub category which are stored and updated as when required
+
+21
+00:08:01,200 --> 00:08:05,220
+The Admin can, Add,Update and Delete the Products
+
+22
+00:08:05,620 --> 00:08:13,100
+Here the Refrigerator has no data, hence will add the new Product and display it in this category
+
+23
+00:08:13,660 --> 00:08:30,180
+Here, the admin needs to select the main category, subcategory, name of the product,Upload multiple image and add description in CKeditor ,
+
+24
+00:08:38,640 --> 00:08:47,120
+So, here is the Product which is just added,but the product will not display in the front end unless we add the stock of the product
+
+25
+00:08:51,080 --> 00:09:03,120
+So here,only those products are displayed whose stock are pending, so we select the product, add the available qty of product, add unit price and discount if applicable else set discount to 0, Set Maximum Qty value,which specify how many qty can a customer buy at once
+
+26
+00:09:03,320 --> 00:09:06,320
+For Example,if admin set max qty to 5, the customer can order Minimum 1Qty and Maximum upto 5 Qty at once
+
+27
+00:09:06,720 --> 00:09:09,720
+If Stock status is set to "IN STOCK" then the customers can order the product, if Stock is set to "OUT OF STOCK" the customers cannot order the product
+
+28
+00:09:13,760 --> 00:09:26,660
+Now, once product and stock is added, if we refresh the front end, then when can see the product and its details
+
+29
+00:09:34,200 --> 00:09:53,980
+Suppose, if we want to send a product out of stock, all we need to do is find the product in stock details and update its status to "OUT OF STOCK"
+
+30
+00:10:06,380 --> 00:10:16,660
+Refresh the Page
+
+31
+00:10:51,320 --> 00:10:58,300
+The Extra Charges contains details like, What should be the minimum amount to avoid delivery charges to be applied, the stock qty notify if the qty of products is less then 20
+
+32
+00:11:02,140 --> 00:11:15,680
+Here, we can generate the reports of Total Sales occurred for specific dates for example from 1-1-2019 to 1-1-202, it will display all the sales of products and total earning in the form of PDF
+
+33
+00:11:19,980 --> 00:11:29,300
+The Admin can also update the profile or change password as when required
+
